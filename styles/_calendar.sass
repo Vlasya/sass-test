@@ -1,0 +1,45 @@
+.calendar--items
+  display: flex
+  flex-direction: column
+  align-items: center
+
+
+.calendar--item
+  width: 80%
+  display: flex
+  flex-direction: column
+  align-items: start
+  padding: 15px 20px
+  margin-bottom: 10px
+  border: 4px solid transparent
+  border-radius: 10px
+
+  h4
+    margin: 0
+    font-weight: bold
+
+  p
+    margin: 10px 0px
+
+  .name
+    text-transform: uppercase
+    font-weight: bold
+    font-size: 12px
+
+  &.pink
+    background-color: #e6abb4
+    border-left-color: #ef4260
+    .name
+      color: #ef4260
+
+  &.orange
+    background-color: #ecc57c
+    border-left-color: #a5700f
+    .name
+      color: #a5700f
+  &.purple
+    background-color: #d87ad8
+    border-left-color: #460346
+    .name
+      color: #460346
+

@@ -1,0 +1,94 @@
+.wrapper {
+  max-width: 60%;
+  margin: 20px auto; }
+
+.container {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #8080800f;
+  border-bottom: 2px solid #9e939345; }
+
+.title {
+  font-weight: bold;
+  color: grey;
+  text-transform: uppercase; }
+
+.menu--link {
+  display: flex;
+  align-items: start; }
+  .menu--link a {
+    text-decoration: none;
+    color: grey; }
+  .menu--link img {
+    width: 20px;
+    padding-top: 3px;
+    margin-right: 5px; }
+
+.categories--items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .categories--items .btn {
+    text-transform: uppercase;
+    flex-basis: 45%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: bold; }
+    .categories--items .btn:nth-child(even) {
+      margin-right: 0; }
+    .categories--items .btn.school {
+      background-color: purple; }
+    .categories--items .btn.work {
+      background-color: orange; }
+    .categories--items .btn.classes {
+      background-color: red; }
+    .categories--items .btn.other {
+      background-color: coral; }
+
+.calendar--items {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.calendar--item {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border: 4px solid transparent;
+  border-radius: 10px; }
+  .calendar--item h4 {
+    margin: 0;
+    font-weight: bold; }
+  .calendar--item p {
+    margin: 10px 0px; }
+  .calendar--item .name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px; }
+  .calendar--item.pink {
+    background-color: #e6abb4;
+    border-left-color: #ef4260; }
+    .calendar--item.pink .name {
+      color: #ef4260; }
+  .calendar--item.orange {
+    background-color: #ecc57c;
+    border-left-color: #a5700f; }
+    .calendar--item.orange .name {
+      color: #a5700f; }
+  .calendar--item.purple {
+    background-color: #d87ad8;
+    border-left-color: #460346; }
+    .calendar--item.purple .name {
+      color: #460346; }
+
+/*# sourceMappingURL=style.css.map */
